@@ -2,8 +2,11 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0 auto;
   padding: 0;
-  background: rgb(105,72,196);
-  background: linear-gradient(90deg, rgba(105,72,196,1) 0%, rgba(141,102,255,1) 50%, rgba(180,142,255,1) 100%);
+  background: rgb(90,58,179);
+  background: -moz-linear-gradient(90deg, rgba(90,58,179,1) 0%, rgba(118,72,255,1) 50%, rgba(180,142,255,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(90,58,179,1) 0%, rgba(118,72,255,1) 50%, rgba(180,142,255,1) 100%);
+  background: linear-gradient(90deg, rgba(90,58,179,1) 0%, rgba(118,72,255,1) 50%, rgba(180,142,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5a3ab3",endColorstr="#b48eff",GradientType=1);
 }
 
 #container {
