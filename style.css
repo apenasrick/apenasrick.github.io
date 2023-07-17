@@ -17,3 +17,28 @@ content {
   max-width: 100%;
   max-height: 100%;
 }
+
+/*
+    Este código CSS tornará seu portfólio adaptável a outros dispositivos.
+    Ele irá redimensionar o conteúdo do seu portfólio para caber na largura da tela do dispositivo,
+    independentemente de ser um computador, tablet ou smartphone.
+*/
+
+@media (max-width: 768px) {
+  /*
+      Redimensiona o layout do seu portfólio para uma única coluna em dispositivos móveis.
+  */
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*
+      Redimensiona o tamanho das imagens do seu portfólio para caber na largura da tela do dispositivo.
+  */
+  img {
+    width: 100%;
+    height: auto;
+  }
+    }
+  
