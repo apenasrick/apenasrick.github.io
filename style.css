@@ -14,7 +14,7 @@ body {
 #container {
   max-width: 1200px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
   display: flex;
   justify-content: center;
   align-items: center;
