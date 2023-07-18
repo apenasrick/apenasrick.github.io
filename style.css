@@ -1,7 +1,12 @@
-body {
-  background-color: #886db5;
+#container{
+  text-align: center;
 }
 
-#container {
-  font-align: center;
+body{
+  background: rgb(117,78,161);
+  background: linear-gradient(90deg, rgba(117,78,161,1) 0%, rgba(165,132,255,1) 50%, rgba(215,180,255,1) 100%);
+}
+
+h1{
+  font-family: 'Gill Sans';
 }
