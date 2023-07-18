@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@300;400;500;700&display=swap');
+
+
 #container{
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 body{
-  background: rgb(117,78,161);
-  background: linear-gradient(90deg, rgba(117,78,161,1) 0%, rgba(165,132,255,1) 50%, rgba(215,180,255,1) 100%);
+  background: rgb(178,111,255);
+  background: linear-gradient(90deg, rgba(178,111,255,1) 0%, rgba(180,153,255,1) 50%, rgba(226,200,255,1) 100%);
 }
 
-h1{
-  font-family: 'Gill Sans';
+h1 {
+  font-family: 'Maven Pro', sans-serif;
 }
